@@ -1,0 +1,41 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "title": "JavaScript Workshop",
+      "description": "Learn JS Basics to Advanced Level\n",
+      "date": "2026-04-10",
+      "location": "Bangalore",
+      "capacity": 500,
+      "availableSeats": 500
+    },
+    {
+      "id": "2",
+      "title": "React Bootcamp",
+      "description": "Advanced React Training",
+      "date": "2026-05-05",
+      "location": "Mumbai",
+      "capacity": 40,
+      "availableSeats": 40
+    },
+    {
+      "id": "3",
+      "title": "Webinar on AI",
+      "description": "AI & Machine Learning Basics",
+      "date": "2026-06-15",
+      "location": "Online",
+      "capacity": 100,
+      "availableSeats": 100
+    }
+  ],
+  "registrations": [
+    {
+      "id": "1",
+      "eventId": 1,
+      "participantName": "John Doe",
+      "email": "john@example.com",
+      "phone": "9876543210"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
